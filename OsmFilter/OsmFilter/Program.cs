@@ -10,6 +10,7 @@ namespace OsmFilter
     {
         static void Main(string[] args)
         {
+            // Download data from: http://download.geofabrik.de/europe/netherlands.html
             using (var fileStream = File.OpenRead(@"c:\temp\netherlands-latest.osm.pbf"))
             {
                 // create source stream.
